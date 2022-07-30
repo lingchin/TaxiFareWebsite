@@ -11,7 +11,7 @@ pickup_longitude = st.number_input("Enter Pickup longtitude", format="%.7f")
 pickup_latitude = st.number_input("Enter Pickup latitude", format="%.7f")
 dropoff_longitude = st.number_input("Enter Drop off longtitude",format="%.7f")
 dropoff_latitude = st.number_input("Enter Drop off latitude",format="%.7f")
-passenger_count = st.number_input("Number of Passengers",format="%.7f")
+passenger_count = st.number_input("Number of Passengers")
 
 # st.write(pickup_datetime,pickup_longitude)
 params = {
