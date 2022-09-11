@@ -26,10 +26,10 @@ params = {
 print(params)
 url = 'https://taxifare.lewagon.ai/predict?'
 print('getting fare...')
-responce = requests.get(url, params=params).json()
-print('responce',responce)
+response = requests.get(url, params=params).json()
+print('responce',response)
 
-st.write("fare",responce['fare'])
+st.write("fare",response['fare'])
 
 """
 2012-10-06%2012:10:20&pickup_longitude=40.7614327&pickup_latitude=-73.9798156
